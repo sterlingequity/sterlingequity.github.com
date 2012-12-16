@@ -4,139 +4,26 @@
 	line-height: 27px;
 }
 
-#nav {
-	width:960px;
-	margin:0px 0px 0px 0px;
-	background-color:#fff;
+div.container {
+    margin:0;
+    padding:0;
+}
+ 
+div.container a, div.container a:link, div.nav a:visited {
+    display:block;
+}
+ 
+div.container img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+div.container a:hover img {
+    visibility:hidden;
 }
 
-/***************************************************
-/*                DT Top Menu
-/*
-/***************************************************/
-/* Main menu settings */
-#centeredmenu {
-	clear:both;
-	float:left;
-	margin:0px 0px 0px 0px;
-	width:100%;
-	padding: 0px 0px 0px 0px;
-	text-transform:uppercase;
-	font-family:Geneva, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	cursor: default;
-	z-index:1000; /* This makes the dropdown menus appear above the page content below */
-	background: url(images/MenuBg.jpg);
-}
 
-/* Top menu items */
-#centeredmenu ul {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-	margin:0;
-	padding:0;
-	list-style:none;
-	position:relative;
-	font-weight:bold;
-}
-#centeredmenu ul .current {
-color:#fff;
-background: url(images/MenuBg.jpg);
-}
-
-#centeredmenu ul li {
-	margin:0 0 0 0px;
-	padding:0 0px 0 0;
-	float:left;
-	left:40px;
-	position:relative;
-	z-index:1000;
-	background-color: transparent;
-}
-#centeredmenu ul li a {	
-	display: block;
-	margin:0;
-	padding: 0.3em 0.75em;
-	line-height:1em;
-	text-decoration: none;
-	color: #fff;
-	
-}
-#centeredmenu ul li:hover a,
-#centeredmenu ul li.hover a { /* This line is required for IE 6 and below */
-	background:#996633; /* Top menu items background colour */
-	color:#fff;
-}
-
-/* CSS 2.1 */
-#centeredmenu li:hover > a.dir {
-    background-color: #C2A385;
-    color: #fff;
-}
-
-#centeredmenu ul li:hover > a.dir {
-    background-color: #C2A385;
-    color: #fff;
-}
-
-#submenu {
-	clear:both;
-	float:left;
-	margin:-5px 0px 0px 0px;
-	width:100%;
-	padding: 0px 0px 0px 0px;
-	text-transform:uppercase;
-	font-family:Geneva, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	cursor: default;
-	z-index:1000; /* This makes the dropdown menus appear above the page content below */
-	background-color:#E2DFCC;
-}
-
-/* Top menu items */
-#submenu ul {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-	margin:0;
-	padding:0;
-	list-style:none;
-	position:relative;
-	font-weight:bold;
-}
-#submenu ul .current {
-color:#E2DFCC;
-background-color:#E2DFCC;
-}
-
-#submenu ul li {
-	margin:0 0 0 1px;
-	padding:0 0 0 0;
-	float:left;
-	left:40px;
-	position:relative;
-	z-index:1000;
-	background-color: transparent;
-}
-#submenu ul li a {	
-	display: block;
-	margin:0;
-	padding: 0.3em 0.75em;
-	line-height:1em;
-	text-decoration: none;
-	color: #000;
-	
-}
-#submenu ul li:hover a,
-#submenu ul li.hover a { /* This line is required for IE 6 and below */
-	background:#E2DFCC; /* Top menu items background colour */
-	color:#000;
-}
-
-/* CSS 2.1 */
-#submenu li:hover > a.dir {
-    background-color: #E2DFCC;
-    color: #000;
-}
-
-#submenu ul li:hover > a.dir {
-    background-color: #fff;
-    color: #000;
+#aboutH {
+    background-image:url("/images/about-h-ro.gif");
 }
