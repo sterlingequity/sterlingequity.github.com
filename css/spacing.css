@@ -3,3 +3,14 @@
 	font-size: 9px;
 	line-height: 27px;
 }
+
+.imagelink {
+    background-color: #fff;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding: 0px 0px 0px 0px;
+	text-align:right;
+	float:left;
+}
