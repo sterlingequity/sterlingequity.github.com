@@ -9,10 +9,6 @@ div.container {
     padding:0;
 }
  
-div.container a, div.container a:link, div.nav a:visited {
-    display:block;
-}
- 
 div.container img {
     border:0;
 }
@@ -20,7 +16,6 @@ div.container img {
 div.container a:hover img {
     visibility:hidden;
 }
-
 
 #aboutH {
     background-image:url("/images/about-h-ro.gif");
