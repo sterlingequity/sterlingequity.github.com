@@ -6,30 +6,10 @@ title: Sterling Equity
 <tr> 
 	<td height="32">
 		<div align="center">
-			<a href="about.html">
-				<img class="imagelink" src="images/about-h.gif"
-					 width="123" height="47" style="border-width: 0px;"
-					 onMouseOver="this.src='images/about-h-ro.gif'" 
-					 onMouseOut="this.src='images/about-h.gif'"/>
-			</a>
-			<a href="investment.html">
-				<img class="imagelink" src="images/investment-h.gif"
-					 width="324" height="47" style="border-width: 0px;"
-					 onMouseOver="this.src='images/investment-h-ro.gif'" 
-					 onMouseOut="this.src='images/investment-h.gif'"/>
-			</a>
-			<a href="management.html">
-				<img class="imagelink" src="images/management-h.gif"
-					 width="200" height="47" style="border-width: 0px;"
-					 onMouseOver="this.src='images/management-h-ro.gif'" 
-					 onMouseOut="this.src='images/management-h.gif'"/>
-			</a>
-			<a href="performance.html">
-				<img class="imagelink" src="images/performance-h.gif"
-					 width="198" height="47" style="border-width: 0px;"
-					 onMouseOver="this.src='images/performance-h-ro.gif'" 
-					 onMouseOut="this.src='images/performance-h.gif'"/>
-			</a>
+			{% include menuitem_about.html %}
+			{% include menuitem_investment.html %}
+			{% include menuitem_management.html %}
+			{% include menuitem_performance.html %}
 			<img class="imagelink" src="images/contact-h-ro.gif" width="144" height="47" style="border-width: 0px;"/>
 		</div>
 	</td>
