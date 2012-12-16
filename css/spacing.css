@@ -8,9 +8,9 @@ div.container {
     margin:0;
     padding:0;
 }
- 
-div.container img {
-    border:0;
+
+div.container a, div.container a:link, div.nav a:visited {
+    display:block;
 }
  
 div.container a:hover img {
