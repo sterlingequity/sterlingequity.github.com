@@ -1,0 +1,894 @@
+body {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#e2dfcc;
+	line-height:140%;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color:#666666;
+}
+hr {
+    background-color:#A3B3C0;
+    border:medium none;
+    color:#A3B3C0;
+    height:1px;
+}
+a:visited, a:link a:hover {
+    color:#996633;
+}
+.DivMain {
+    background-color:#FFFFFF;
+    border:1px solid #A8B2BB;
+    margin:0 0 7px 7px;
+    padding:5px;
+}
+.DivHomeMain {
+float:left;
+margin:0;
+padding:0;
+width:100%;
+}
+#DivHomeMain h2 {
+background:#CC6644 none repeat scroll 0 0;
+color:White;
+margin:0 4px 0 7px;
+padding:2px;
+text-align:center;
+}
+#DivSlogan {
+background-image:url(images/Slogan1.gif);
+border:0px;
+width:750px;
+height:250px;
+margin:0px 0px 0px 3px;
+}
+#container {
+	width: 960px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #fff;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.logo {
+    background-color: #fff;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding: 0px 0px 0px 0px;
+	text-align:right;
+	float:left;
+}
+.checkoutLogo {
+    background-color: #fff;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding: 0px 0px 0px 0px;
+	text-align:right;
+	float:left;
+}
+#header {
+    background-color: #fff;
+	height: 80px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding: 0px 10px 0px 0px;
+	text-align:right;
+	width:960px;
+}
+#checkoutHeader {
+    background-color: #fff;
+	height: 80px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0px 0px 0px 240px;
+	padding: 0px 10px 0px 0px;
+	text-align:right;
+	width:800px;
+}
+#nav {
+	width:960px;
+	margin:0px 0px 0px 0px;
+	background-color:#fff;
+}
+#breadcrumb {
+	background-color:#fff;
+	width:670px;
+	margin:-15px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	
+}
+#maincontent {
+    background:#fff;
+	float:right;
+	width: 65%; /* since this element is floated, a width must be given */
+	padding: 20px 50px 0px 5px;
+}
+#storecontent {
+    background:#fff;
+	float:left;
+	width: 78%; /* since this element is floated, a width must be given */
+	padding: 0px 0px 0px 0px;
+}
+p.social {
+    position:fixed;
+    top:200px;
+    right:0px;
+}
+#leftsidebar {
+	float:left;
+	border:0;
+	width: 20%;
+	padding: 28px 0px 27px 45px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #fff;
+}
+#leftsidebar p {
+	padding: 0px;
+}
+
+#leftsidebar thead a:visited, .leftsidebar thead a:link {
+color:#FFFFFF;
+}
+#leftsidebar tbody td {
+background-color:#FFFFFF;
+border-bottom:1px solid #A3B3C0;
+border-left:1px solid #A3B3C0;
+border-right:1px solid #A3B3C0;
+font-size:100%;
+height:auto;
+line-height:125%;
+margin:0;
+padding:5px;
+white-space:nowrap;
+}
+#leftsidebar tbody ul {
+line-height:14px;
+list-style-type:none;
+margin:1px 1px 1px 17px;
+padding:5px;
+white-space:nowrap;
+}
+#leftsidebar tbody h1 {
+margin:2px 0;
+}
+
+#rightsidebar {
+	float:right;
+	border:0;
+	width: 20%;
+	padding: 0px 3px 0px 0px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #fff;
+}
+#rightsidebar p {
+	padding: 0px;
+}
+#rightsidebar thead a:visited, .leftsidebar thead a:link {
+color:#FFFFFF;
+}
+#rightsidebar tbody td {
+background-color:#FFFFFF;
+border-bottom:1px solid #A3B3C0;
+border-left:1px solid #A3B3C0;
+border-right:1px solid #A3B3C0;
+font-size:100%;
+height:auto;
+line-height:125%;
+margin:0;
+padding:5px;
+white-space:nowrap;
+}
+#rightsidebar tbody ul {
+line-height:14px;
+list-style-type:none;
+margin:1px 1px 1px 17px;
+padding:5px;
+white-space:nowrap;
+}
+#rightsidebar tbody h1 {
+margin:2px 0;
+}
+
+#footer {
+	clear:both;
+	padding: 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background: url(images/FooterBg.jpg);
+	color:#fff;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:center;
+	width:100%;
+}
+#footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+#footer a {
+	color: #fff;
+	font-size: 11px;
+	text-decoration:none;
+}
+#footer a:hover {
+	color: #fff;
+	text-decoration:underline;
+}
+#button {
+	padding:10px;
+}
+#sidebar1 {
+	float: right; 
+	width: 430px; /* since this element is floated, a width must be given */
+	padding: 65px 50px 50px 15px; /* top and bottom padding create visual space within this div */
+}
+#sidebar1 p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+#sidebar1 a{
+	color: #000;
+	text-decoration:none;
+	
+}
+#sidebar1 a:hover {
+	color: #5B5252;
+	text-decoration:none;
+}
+
+#sidebar1 ul li a{
+	color: #fff;
+	text-decoration:none;
+}
+
+#link a {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration:none;
+}
+#link a:hover {
+	color: #666666;
+	text-decoration:underline;
+}
+
+a:visited, a:link {
+color:#996633;
+text-decoration:underline;
+}
+
+.storemenu h1 {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:135%;
+	color:#996633;
+	margin:5px 0;
+}
+
+h1{
+	font-size:200%;
+	color:#996633;
+	margin: 5px 0px 5px 0px;
+}
+h2{
+	font-size:115%;
+	color:#996633;
+	margin: 3px 0px 3px 0px;
+}
+h3{
+	font-size:100%;
+	color:#996633;	
+	margin: 2px 0px 2px 0px;
+}
+h4{
+	font-size:85%;
+	color:#996633;
+	margin: 2px 0px 2px 0px;
+}
+li{
+	padding: 0px;
+}
+.warning{
+	color:#FF0000;
+}
+.required{
+	color:#FF0000;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#pricelist td{
+	border-style:solid;
+	border-width:0px 0px 1px 0px;
+	border-spacing:0px;
+	padding:4px 4px 4px 4px;
+	margin:0px;
+	
+}
+p.WhiteOnGray {
+    background-color:gray;
+    color:#fff;
+    margin-right: 400px;
+    font-weight:bold;
+    padding:5px 5px 5px 5px;
+}
+p.TestimonialIdentity {
+    font-style:italic;
+}
+p.BoldText {
+    font-weight:bold;
+}
+p.CenteredBoldText {
+    font-weight:bold;
+    text-align:center;
+}
+.DTTable {
+background-color:#E2DDB5;
+border:2px solid #FFFFFF;
+border-collapse:collapse;
+color:#996633;
+}
+.DTTable thead {
+color:#996633;
+font-weight:bold;
+white-space:nowrap;
+}
+.DTTable td {
+border:2px solid #FFFFFF;
+}
+.Departments {
+list-style-type:none;
+margin:0px 0px 0px 3px;
+padding:0px;
+
+}
+.Department {
+background-color:#FFFFFF;
+border:1px solid #A8B2BB;
+float:left;
+height:180px;
+margin:5px 8px 5px 0px;
+padding:0px 0px 0px 0px;
+text-align:center;
+width:185px;
+}
+.DepartmentName {
+color:#996633;
+display:block;
+font-weight:bold;
+margin:0px 0px 0px 0px;
+}
+.faqheader {
+color:#FFFFFF;
+background-color:#C2A385;
+}
+.Price {
+color:#996633;
+display:block;
+font-size:150%;
+font-weight:bold;
+padding:0px 0px 0px 0px;
+text-align:center;
+text-decoration:none;
+}
+.MiniProduct {
+float:left;
+height:39px;
+width:45px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:2px;
+padding:0;
+text-align:center;
+}
+.ProductDescription {
+color:#000000;
+}
+
+.DivSideBar {
+margin:0px 0px 7px 0px;
+}
+.DivSideBar table {
+background-color:#996633;
+}
+.DivSideBar thead {
+color:#FFFFFF;
+font-size:100%;
+font-weight:bold;
+text-align:center;
+white-space:nowrap;
+}
+.DivSideBar thead tr {
+position:relative;
+}
+.DivSideBar thead th {
+padding:2px;
+}
+.DivSideBar thead a:visited, .DivSideBar thead a:link {
+color:#FFFFFF;
+}
+.DivSideBar tbody td {
+background-color:#FFFFFF;
+border-bottom:1px solid #A3B3C0;
+border-left:1px solid #A3B3C0;
+border-right:1px solid #A3B3C0;
+font-size:100%;
+height:auto;
+line-height:125%;
+margin:0;
+padding:5px;
+white-space:nowrap;
+}
+.DivSideBar tbody ul {
+line-height:14px;
+list-style-type:none;
+margin:1px 1px 1px 17px;
+padding:0;
+white-space:nowrap;
+}
+.DivSideBar tbody h1 {
+margin:2px 0;
+}
+
+.Category {
+background-color:#FFFFFF;
+margin:5px;
+padding:4px;
+text-align:center;
+}
+.CategoryName {
+color:#996633;
+display:block;
+font-weight:bold;
+margin:0px 0px 0px 0px;
+}
+.CategoryPrice {
+color:#996633;
+display:block;
+font-size:120%;
+font-weight:bold;
+margin:3px 0px 3px 0px;
+text-decoration:none;
+}
+
+.Product {
+background-color:#FFFFFF;
+margin:0px;
+padding:0px;
+text-align:center;
+}
+
+.ProductName {
+color:#996633;
+display:block;
+font-weight:bold;
+margin:5px 0;
+}
+
+.ProductFields {
+margin:5px 0 0;
+}
+
+.ProductPrice {
+color:#996633;
+display:block;
+font-size:120%;
+font-weight:bold;
+margin:3px;
+text-decoration:none;
+}
+.PriceDiscount {
+color:#BB0000;
+display:block;
+font-size:200%;
+font-weight:bold;
+margin:3px;
+text-decoration:none;
+}
+.PriceWas {
+color:#4444AA;
+display:block;
+font-size:120%;
+font-weight:bold;
+margin:3px;
+text-decoration:none;
+}
+.PriceNow, .PriceDeal {
+color:#BB0000;
+display:block;
+font-size:150%;
+font-weight:bold;
+margin:3px;
+text-decoration:none;
+}
+.CheckOut th {
+font-weight:bold;
+text-align:right;
+}
+.CheckOutDone {
+color:#CC8877;
+font-weight:bold;
+}
+.CheckOutDoing {
+color:#CC6633;
+font-size:115%;
+font-weight:bold;
+}
+.CheckOutNotDone {
+color:#666666;
+font-weight:bold;
+}
+
+/***************************************************
+/*                DT Top Menu
+/*
+/***************************************************/
+/* Main menu settings */
+#centeredmenu {
+	clear:both;
+	float:left;
+	margin:0px 0px 0px 0px;
+	width:100%;
+	padding: 0px 0px 0px 0px;
+	text-transform:uppercase;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: default;
+	z-index:1000; /* This makes the dropdown menus appear above the page content below */
+	background: url(images/MenuBg.jpg);
+}
+
+/* Top menu items */
+#centeredmenu ul {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	font-weight:bold;
+}
+#centeredmenu ul .current {
+color:#fff;
+background: url(images/MenuBg.jpg);
+}
+
+#centeredmenu ul li {
+	margin:0 0 0 0px;
+	padding:0 0px 0 0;
+	float:left;
+	left:40px;
+	position:relative;
+	z-index:1000;
+	background-color: transparent;
+}
+#centeredmenu ul li a {	
+	display: block;
+	margin:0;
+	padding: 0.3em 0.75em;
+	line-height:1em;
+	text-decoration: none;
+	color: #fff;
+	
+}
+#centeredmenu ul li:hover a,
+#centeredmenu ul li.hover a { /* This line is required for IE 6 and below */
+	background:#996633; /* Top menu items background colour */
+	color:#fff;
+}
+
+/* CSS 2.1 */
+#centeredmenu li:hover > a.dir {
+    background-color: #C2A385;
+    color: #fff;
+}
+
+#centeredmenu ul li:hover > a.dir {
+    background-color: #C2A385;
+    color: #fff;
+}
+
+#submenu {
+	clear:both;
+	float:left;
+	margin:-5px 0px 0px 0px;
+	width:100%;
+	padding: 0px 0px 0px 0px;
+	text-transform:uppercase;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: default;
+	z-index:1000; /* This makes the dropdown menus appear above the page content below */
+	background-color:#E2DFCC;
+}
+
+/* Top menu items */
+#submenu ul {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	font-weight:bold;
+}
+#submenu ul .current {
+color:#E2DFCC;
+background-color:#E2DFCC;
+}
+
+#submenu ul li {
+	margin:0 0 0 1px;
+	padding:0 0 0 0;
+	float:left;
+	left:40px;
+	position:relative;
+	z-index:1000;
+	background-color: transparent;
+}
+#submenu ul li a {	
+	display: block;
+	margin:0;
+	padding: 0.3em 0.75em;
+	line-height:1em;
+	text-decoration: none;
+	color: #000;
+	
+}
+#submenu ul li:hover a,
+#submenu ul li.hover a { /* This line is required for IE 6 and below */
+	background:#E2DFCC; /* Top menu items background colour */
+	color:#000;
+}
+
+/* CSS 2.1 */
+#submenu li:hover > a.dir {
+    background-color: #E2DFCC;
+    color: #000;
+}
+
+#submenu ul li:hover > a.dir {
+    background-color: #fff;
+    color: #000;
+}
+
+/***************************************************
+/*                Store Top Menu
+/*
+/***************************************************/
+/* Main menu settings */
+#storecenteredmenu {
+	clear:both;
+	margin:0px 0px 0px 0px;
+	width:100%;
+	padding: 0px 0px 0px 0px;
+	text-transform:uppercase;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: default;
+	z-index:1000; /* This makes the dropdown menus appear above the page content below */
+	background: url(images/MenuBg.jpg);
+}
+
+/* Top menu items */
+#storecenteredmenu ul {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	font-weight:bold;
+	text-align:center;
+}
+#storecenteredmenu ul .current {
+color:#fff;
+background: url(images/MenuBg.jpg);
+}
+
+#storecenteredmenu ul li {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	float:left;
+	position:relative;
+	z-index:1000;
+	background-color: transparent;
+}
+#storecenteredmenu ul li a {	
+	display: block;
+	margin:0;
+	padding: 0.3em 0.75em;
+	line-height:1em;
+	text-decoration: none;
+	color: #fff;
+	
+}
+#storecenteredmenu ul li:hover a,
+#storecenteredmenu ul li.hover a { /* This line is required for IE 6 and below */
+	background:#996633; /* Top menu items background colour */
+	color:#fff;
+}
+
+/* CSS 2.1 */
+#storecenteredmenu li:hover > a.dir {
+    background-color: #C2A385;
+    color: #fff;
+}
+
+#storecenteredmenu ul li:hover > a.dir {
+    background-color: #C2A385;
+    color: #fff;
+}
+
+
+/***************************************************
+ * jQuery Nivo Slider v2.5.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ ***************************************************/
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:375px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	-moz-opacity: 0.8;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:50%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+#slider-wrapper {
+    width:750px;
+    height:250px;
+    margin:0 auto;
+    padding-top:0px;
+    margin-top:0px;
+}
+
+#slider {
+	position:relative;
+    width:750px;
+    height:250px;
+    margin-left:3px;
+	background:url(images/slider/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:0px;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/slider/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/slider/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

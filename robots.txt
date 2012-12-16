@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /web/Links.aspx
+Disallow: /web/Error.aspx
+Disallow: /web/PageNotFound.aspx
+Disallow: /web/ContactUsSent.aspx
+sitemap: http://sterlingequity.com.au/Sitemap.xml
