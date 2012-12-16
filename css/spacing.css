@@ -3,22 +3,3 @@
 	font-size: 9px;
 	line-height: 27px;
 }
-
-div.container {
-	height: auto;
-	width: auto;
-    margin:0;
-    padding:0;
-}
-
-div.container a, div.container a:link, div.nav a:visited {
-    display:block;
-}
- 
-div.container a:hover img {
-    visibility:hidden;
-}
-
-#aboutH {
-    background-image:url("/images/about-h-ro.gif");
-}
