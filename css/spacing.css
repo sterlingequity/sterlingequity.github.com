@@ -19,6 +19,7 @@
 
 #footerimage {
   position: fixed;
+  top: 80%;
   left: 50%;
   margin-left: -141px;
 }
