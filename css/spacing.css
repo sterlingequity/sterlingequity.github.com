@@ -1,5 +1,5 @@
 .Spacing {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Perpetua", Times, serif;
 	font-size: 9px;
 	line-height: 27px;
 }
@@ -20,4 +20,9 @@
   top: 750px;
   left: 50%;
   margin-left: -141px;
+}
+
+h1 {
+	font-family: "Perpetua", Times, serif;
+	color:#5787C6;
 }
