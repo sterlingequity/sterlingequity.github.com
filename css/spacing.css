@@ -18,6 +18,7 @@
 }
 
 #footerimage {
-  position:absolute;
-  text-align: center;
+  position: fixed;
+  left: 50%;
+  margin-left: -141px;
 }
