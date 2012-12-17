@@ -16,3 +16,9 @@
 	text-align:right;
 	float:left;
 }
+
+#footerimage {
+  position:absolute;
+  width: 100%;
+  text-align: center;
+}
