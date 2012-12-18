@@ -28,6 +28,7 @@ border-width: 0px;
 }
 
 #footer {
+  position: absolute;
   left: 50%;
   margin-left: -141px;
 }
