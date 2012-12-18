@@ -4,6 +4,26 @@
 	line-height: 27px;
 }
 
+p {
+	font-family: "Perpetua", Times, serif;
+	font-size: 9px;
+	line-height: 27px;
+}
+
+p.BodyText{
+	font-family: "Perpetua", Times, serif;
+	font-size: 9px;
+	line-height: 27px;
+}
+
+p.BodyText.Left {
+	text-align:left
+}
+
+p.BodyText.Centered {
+	text-align:center
+}
+
 .imagelink {
     background-color: #fff;
 	list-style-image:none;
