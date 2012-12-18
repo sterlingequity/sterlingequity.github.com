@@ -1,12 +1,11 @@
-.Spacing {
-	font-family: "Perpetua", Times, serif;
-	font-size: 9px;
-	line-height: 27px;
-}
-
 p {
 	font-family: "Times New Roman", Times, serif;
 	line-height: 27px;
+}
+
+h1 {
+	font-family: "Perpetua", Times, serif;
+	color:#5787C6;
 }
 
 p.BodyText{
@@ -31,7 +30,6 @@ p.BodyText{
   margin-left: -141px;
 }
 
-h1 {
-	font-family: "Perpetua", Times, serif;
-	color:#5787C6;
+img {
+border-width: 0px;
 }
