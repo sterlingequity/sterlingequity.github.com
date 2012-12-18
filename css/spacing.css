@@ -3,13 +3,17 @@ p {
 	line-height: 27px;
 }
 
+p.BodyText{
+	font-size: 18px;
+}
+
 h1 {
 	font-family: "Perpetua", Times, serif;
 	color:#5787C6;
 }
 
-p.BodyText{
-	font-size: 18px;
+img {
+border-width: 0px;
 }
 
 .imagelink {
@@ -23,13 +27,14 @@ p.BodyText{
 	float:left;
 }
 
-#footerimage {
-  position: absolute;
-  top: 750px;
+#footer {
   left: 50%;
   margin-left: -141px;
 }
 
-img {
-border-width: 0px;
+#footerAbsolute {
+  position: absolute;
+  top: 750px;
+  left: 50%;
+  margin-left: -141px;
 }
