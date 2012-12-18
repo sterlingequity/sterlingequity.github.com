@@ -13,14 +13,6 @@ p.BodyText{
 	font-size: 18px;
 }
 
-p.BodyText.Left {
-	text-align:left
-}
-
-p.BodyText.Centered {
-	text-align:center
-}
-
 .imagelink {
     background-color: #fff;
 	list-style-image:none;
