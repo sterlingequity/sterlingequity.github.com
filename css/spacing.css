@@ -11,6 +11,10 @@ p.NoteText{
 	font-size: 14px;
 }
 
+ul.BodyText{
+	font-size: 18px;
+}
+
 h1 {
 	font-family: "Perpetua", Times, serif;
 	color:#5787C6;
