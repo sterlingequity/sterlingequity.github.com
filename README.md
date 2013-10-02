@@ -1,4 +1,4 @@
 sterlingequity.github.com
 =========================
 
-Repository for sterlingequity.com.au
+Repository for [Sterling Equity](https://www.sterlingequity.com.au) 
