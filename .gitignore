@@ -119,6 +119,7 @@ UpgradeLog*.XML
 ############
 ## Windows
 ############
+converted.png
 
 # Windows image file caches
 Thumbs.db
