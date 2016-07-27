@@ -15,7 +15,7 @@ ul {
 	list-style: none;
 }
 
-li:before {
+ul > li:before {
 	content: "–";
 }
 
