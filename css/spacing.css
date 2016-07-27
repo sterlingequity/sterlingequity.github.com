@@ -16,7 +16,7 @@ ul {
 }
 
 ul > li:before {
-	content: "–";
+	content: "– ";
 }
 
 li{
