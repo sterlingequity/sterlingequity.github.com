@@ -11,6 +11,10 @@ p.NoteText{
 	font-size: 14px;
 }
 
+ol.BodyText{
+	font-size: 18px;
+}
+
 ul.BodyText{
 	font-size: 18px;
 }
