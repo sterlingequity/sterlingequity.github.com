@@ -13,12 +13,14 @@ p.NoteText{
 
 ol.BodyText{
 	font-size: 18px;
-	margin: 10px 0;
 }
 
 ul.BodyText{
 	font-size: 18px;
-	margin: 10px 0;
+}
+
+li{
+    margin: 10px 0;
 }
 
 h1 {
