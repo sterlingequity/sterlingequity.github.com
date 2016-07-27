@@ -11,6 +11,18 @@ p.NoteText{
 	font-size: 14px;
 }
 
+ul {
+	list-style: none;
+}
+
+li:before {
+	content: "–";
+}
+
+li{
+    margin: 10px 0;
+}
+
 ol.BodyText{
 	font-size: 18px;
 }
@@ -19,9 +31,7 @@ ul.BodyText{
 	font-size: 18px;
 }
 
-li{
-    margin: 10px 0;
-}
+
 
 h1 {
 	font-family: "Perpetua", Times, serif;
